@@ -7,7 +7,7 @@ about:
   head: 1f0b5f7
   archived: false
   latestVersion: v2.0.0
-  collectedAt: 2026-09-04T19:22:51Z
+  collectedAt: 2026-09-04T21:13:26Z
 timeline:
   created: 2018-02-28
   lastCommit: 2022-02-16
@@ -80,6 +80,34 @@ total:
   openIssue: 14
   commit: 168
 ---
+path: /home/runner/.x-repo/github.com/shobrook/rebound
+collectedAt: 2026-09-04T21:13:27Z
+loc:
+  Python:
+    code: 700
+    comments: 60
+    blanks: 209
+    files: 6
+  Autoconf:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 25
+    blanks: 21
+    files: 1
+  Text:
+    code: 0
+    comments: 4
+    blanks: 0
+    files: 1
+total:
+  code: 702
+  comments: 89
+  blanks: 230
+  files: 9
 ---
 date: "2026-08-24"
 repo:
