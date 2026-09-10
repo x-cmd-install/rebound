@@ -1,0 +1,380 @@
+- repo: aur
+  srcname: rebound
+  binname: rebound
+  visiblename: rebound
+  version: 2.1.0
+  origversion: 2.1.0-2
+  status: outdated
+  summary: Command-line tool that instantly fetches Stack Overflow results when an exception is thrown
+  maintainers:
+    - yochananmarqos@aur
+  licenses:
+    - MIT
+- repo: conancenter
+  srcname: rebound
+  visiblename: rebound
+  version: 4.4.1
+  origversion: null
+  status: newest
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1.1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1.1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: kali_rolling
+  subrepo: main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pardus_21
+  subrepo: main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1.1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1.1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1.1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1.1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2build1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2build1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
