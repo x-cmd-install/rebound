@@ -24,19 +24,19 @@
     - szlin@debian.org
   categories:
     - universe/misc
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: rebound
   binnames:
     - rebound
   visiblename: rebound
   version: 2.0.0
-  origversion: 2.0.0-2
+  origversion: 2.0.0-2build1
   status: outdated
   maintainers:
     - szlin@debian.org
   categories:
-    - misc
+    - universe/misc
 - repo: aur
   srcname: rebound
   binname: rebound
@@ -243,6 +243,19 @@
   visiblename: rebound
   version: 2.0.0
   origversion: 2.0.0-1.1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
   status: outdated
   maintainers:
     - szlin@debian.org
