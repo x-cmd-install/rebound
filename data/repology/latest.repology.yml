@@ -1,42 +1,3 @@
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: rebound
-  binnames:
-    - rebound
-  visiblename: rebound
-  version: 2.0.0
-  origversion: 2.0.0-2build1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: rebound
-  binnames:
-    - rebound
-  visiblename: rebound
-  version: 2.0.0
-  origversion: 2.0.0-2build1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
-  srcname: rebound
-  binnames:
-    - rebound
-  visiblename: rebound
-  version: 2.0.0
-  origversion: 2.0.0-2build1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
 - repo: aur
   srcname: rebound
   binname: rebound
@@ -120,17 +81,6 @@
     - szlin@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: rebound
-  binnames:
-    - rebound
-  visiblename: rebound
-  version: 2.0.0
-  origversion: 2.0.0-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: rebound
@@ -197,7 +147,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rebound
   binnames:
     - rebound
@@ -210,7 +160,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rebound
   binnames:
     - rebound
@@ -360,6 +310,45 @@
   visiblename: rebound
   version: 2.0.0
   origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2build1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2build1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2build1
   status: outdated
   maintainers:
     - szlin@debian.org
