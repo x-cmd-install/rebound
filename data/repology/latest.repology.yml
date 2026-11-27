@@ -1,86 +1,3 @@
-- repo: aur
-  srcname: rebound
-  binname: rebound
-  visiblename: rebound
-  version: 2.1.0
-  origversion: 2.1.0-2
-  status: outdated
-  summary: Command-line tool that instantly fetches Stack Overflow results when an exception is thrown
-  maintainers:
-    - yochananmarqos@aur
-  licenses:
-    - MIT
-- repo: conancenter
-  srcname: rebound
-  visiblename: rebound
-  version: 4.4.1
-  origversion: null
-  status: newest
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: rebound
-  binnames:
-    - rebound
-  visiblename: rebound
-  version: 2.0.0
-  origversion: 2.0.0-1.1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: rebound
-  binnames:
-    - rebound
-  visiblename: rebound
-  version: 2.0.0
-  origversion: 2.0.0-2
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: rebound
-  binnames:
-    - rebound
-  visiblename: rebound
-  version: 2.0.0
-  origversion: 2.0.0-2
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: rebound
-  binnames:
-    - rebound
-  visiblename: rebound
-  version: 2.0.0
-  origversion: 2.0.0-2
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: rebound
-  binnames:
-    - rebound
-  visiblename: rebound
-  version: 2.0.0
-  origversion: 2.0.0-2
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
 - repo: deepin_25
   subrepo: community
   srcname: rebound
@@ -172,19 +89,6 @@
     - szlin@debian.org
   categories:
     - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: rebound
-  binnames:
-    - rebound
-  visiblename: rebound
-  version: 2.0.0
-  origversion: 2.0.0-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: rebound
@@ -239,6 +143,89 @@
     - misc
 - repo: raspbian_testing
   subrepo: main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: aur
+  srcname: rebound
+  binname: rebound
+  visiblename: rebound
+  version: 2.1.0
+  origversion: 2.1.0-2
+  status: outdated
+  summary: Command-line tool that instantly fetches Stack Overflow results when an exception is thrown
+  maintainers:
+    - yochananmarqos@aur
+  licenses:
+    - MIT
+- repo: conancenter
+  srcname: rebound
+  visiblename: rebound
+  version: 4.4.1
+  origversion: null
+  status: newest
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-1.1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: rebound
+  binnames:
+    - rebound
+  visiblename: rebound
+  version: 2.0.0
+  origversion: 2.0.0-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: rebound
   binnames:
     - rebound
